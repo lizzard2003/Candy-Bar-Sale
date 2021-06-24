@@ -1,0 +1,14 @@
+#include <iostream>
+double bars_sold;
+double bar_price;
+double total;
+
+int main() {
+  std::cout << "How many candy bars were sold?";
+  std::cin>>bars_sold;
+  std::cout<<"How much is each bar?";
+  std::cin>>bar_price;
+  total=bars_sold*bar_price;
+  std::cout<< "The amount that has been earned is: "<<total;
+
+}
